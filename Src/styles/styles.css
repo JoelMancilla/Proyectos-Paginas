@@ -1,0 +1,244 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Vesper+Libre&display=swap');
+
+/* HEADER */
+.header {
+display: flex;
+flex-direction:row;
+}
+
+.header div {
+width: 10%;
+padding:0;
+}
+
+/* INTRO */
+.Intro {
+padding-top: 2.5vw;
+display: grid;
+grid-template-columns: repeat(4, 25vw);
+grid-template-rows: repeat(1, 1fr);
+}
+.Intro-1 {
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+}
+.Intro-2 {
+padding-left: 6vw;
+grid-column: 4 / 5;
+grid-row: 1 / 2;
+}
+
+/* secciones de header */
+.child-header-img {
+display: flex;
+padding:20px;
+padding-left: 40px;
+flex: 1 1 auto;
+justify-content: center;
+align-items: center;
+background-color:#FFE945 ;
+}
+
+.child-header {
+display: flex;
+background-color:#FFE945 ;
+flex: 1 1 auto;
+justify-content: center;
+align-items: center;
+}
+
+.child-header a {
+color: black;
+text-decoration: none;
+letter-spacing: 0.5vw;
+padding-left: 40px;
+padding:20px;
+font-size: large;
+font-family: "Inter:ital", sans-serif;
+font-style: italic;
+font-weight: 900;
+display: flex;
+flex: 1 1 auto;
+justify-content: center;
+align-items: center;
+}
+
+
+.child-header:hover {
+transition: ease-in 0.2s;
+background-color:#FFF9CD ;
+}
+
+/* secctions menu sandwiches-pizzas-otros */
+.box-menu-sections {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top:5vw;
+padding-bottom:5vw;
+}
+
+.links-menu {
+align-content: center;
+word-wrap: break-word;
+font-size: calc(1vmax + 0.5vw);
+text-align: center;
+font-family:"inter";
+font-style: italic;
+width: 15vw;
+height: 2vw;
+background-color: #FFE945;
+color: black;
+border-radius: 20px;
+text-decoration: none;
+}
+
+/* Buttons delivery */
+#btn1, #btn2, #btn3 {
+display: flex;
+justify-content: center;
+padding: 1vmax;
+width: 150px;
+height: 50px;
+max-width:150px ;
+max-height:50px ;
+border: none;
+border-radius: 20pc;
+font-weight: 700;
+}
+
+#btn1:hover, #btn2:hover, #btn3:hover {
+opacity: 80%;
+}
+
+#btn1 {
+background-color: #ffd000;
+color: #00a082;
+}
+#btn2 {
+background-color: #ff0044;
+color: #ffffff;
+}
+#btn3 {
+background-color: #000000;
+color: #ffffff;
+}
+
+
+
+/* CUPONES */
+.precio-cupon {
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:  "inter", sans-serif;
+font-style: italic;
+font-size: 2vmax;
+font-weight: 800;
+letter-spacing: 0.2vmax;
+}
+
+/* Novedades - Carousel */
+.carousel {
+position: relative;
+width: 100%;
+height: 50vw;
+overflow: hidden;
+}
+
+.carousel-images {
+display: flex;
+transition: transform 0.5s ease-in-out;
+width: 300vw; /*3imágenes*/
+}
+
+.carousel-images img {
+width: 100vmax;
+height: 50vw; 
+}
+
+.carousel-button {
+height: 100%;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: rgba(255, 255, 255, 0.3);
+border: none;
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+z-index: 10;
+font-size: 18px;
+}
+
+.carousel-button.left {
+left: 0%;
+}
+
+.carousel-button.right {
+right: 0%;
+}
+/* Novedades - Title */
+.title-novedades {
+padding-top:5vw;
+padding-left:2vmax;
+font-family: "inter" sans-serif;
+font-style: italic;
+}
+
+/* Novedades - imagenes box */
+.box-image {
+padding-top: 5vh;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.5fr 0.5fr 0.5fr;
+text-align: center;
+font-family: "inter" sans-serif;
+font-style: italic;
+font-size: 3vw;
+font-weight: 800;
+border-radius: 5px;
+color: white;
+transition: ease-in 0.1s ;
+
+}
+
+
+.box-image:hover{
+opacity: 80%;
+}
+
+
+
+/* FOOTERS */
+.footer {
+position:relative;
+top: 5vh;
+}
+/* seccion contenedora footers */
+.section-f {
+background-color: #FFE945;
+font-family:"Inter:ital", sans-serif;
+font-style: italic;
+}
+.section-f * {
+text-decoration: none;
+color: black;
+}
+.section-f a:hover {
+color: white;
+}
+/* iconos footer*/
+.div-icons-foter {
+display: flex;
+flex-direction: row;
+border-bottom: thin solid black;
+padding-bottom: 1vw;
+}
+.div-icons-foter div {
+padding-left: 1vw;
+padding-right: 1vw;
+}
+
+
