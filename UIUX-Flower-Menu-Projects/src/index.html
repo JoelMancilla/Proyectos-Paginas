@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header id="fondo-imagen">
+      <section style="width: 100%;">
+            <div class="buscador-container">
+              <img id="lupa" src="/media/iconos/search-interface-symbol.png"  alt="">
+              <div id="Buscarbox" class="oculto">                    
+                <input type="text" id="searchImput" placeholder="Search" >
+              </div>
+            </div>                
+
+            <!-- flower menu -->
+            <section class="Caja-circulos">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </section>
+
+            </div>
+            <section class="menu-container hidden">
+                <article class="close-window">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </article>
+                <article class="menu-flower">
+                  <div><img src="/media/imagenes-content/aeronaves.jpeg" alt=""><span>Missions</span></div>
+                  <div><img src="/media/imagenes-content/tierra.jpg" alt=""><span>Earth</span></div>
+                  <div><img src="/media/imagenes-content/Atronauta.jpeg" alt=""><span>Aeronautics</span></div>
+                  <div><img src="/media/imagenes-content/ciencia.jpeg" alt=""><span>Science</span></div>
+                  <div><img src="/media/imagenes-content/tecnologia.jpeg" alt=""><span>Technology</span></div>
+                  <div><img src="/media/imagenes-content/universo.jpeg" alt=""><span>The Universe</span></div>
+                </article>
+            </section>
+
+            <!-- titulo -->
+            <div class="hero-titulo">
+                <h1 style="font-size: 5em;">NASA</h1>
+                <p style="opacity: 0.8; position:  relative; bottom: 3em; font-size: 1vmax;">Delivering Since  To The Space Station</p>
+            </div>
+                <!-- logo nasa -->
+            <div class="logo-nasa" >
+                 <img src="/media/iconos/nasa logo original.png" alt="">
+            </div>
+        </section>
+                <!-- buscador -->
+    </header>
+
+        <!-- secciones -->
+        <section class="Content-sections">
+            <!-- titulo -->
+            
+             <h4 onclick="ContentVista(0)">NASA SCIENCE</h4>
+             
+             <h4 onclick="ContentVista(1)">SPACE PLACE</h4>
+            
+             <h4 onclick="ContentVista(2)">NASA AERONAUTICS</h4>
+           
+        </section>
+        <hr style="width: 80%;">
+        <!-- cuerpo de informacion -->
+        <section >
+            <!-- parrafo -->
+            <div class="content active" id="id-content-0 Container-info">
+            <div class="box1">
+             <h2>NASA SCIENCE</h2>
+             <h4 class="subtitle">For everyone</h4>
+             <p class="info">Science is the key to unlocking the secrets of the universe: uniting humanity with every discovery, expanding our knowledge and sparking our imagination. By navigating the sands of time and space, science gives context and meaning to measurements large and small. Did you know there are as many stars in the universe as there are grains of sand on Earth? NASA's new era of scientific discovery has just begun, and you're part of it!</p>
+             <p class="info">Read More</p>
+            </div>
+             <div class="box2">
+                <img class="image" width="500px" height="300px" src="/media/imagenes-content/imagen de Seccion 1.jpg" alt="">
+             </div>  
+            </div>
+
+            <!-- parrafo -->
+            <div class="content" id="id-content-1">
+            <div class="box1">
+              <h2>SPACE PLACE</h2>
+              <h4 class="subtitle">For everyone</h4>
+              <p class="info">El galardonado sitio web Space Place de la NASA atrae a los niños de primaria superior a las ciencias espaciales y terrestres a través de juegos interactivos, actividades prácticas, artículos divertidos y videos cortos. Con material en inglés y español y numerosos recursos para niños, padres y maestros, Space Place tiene algo para todos.</p>
+              <p class="info">Read More</p>
+            </div>
+             <div class="box2">
+                <img class="image" width="500px" height="300px" src="/media/imagenes-content/imagen seccion 2.png" alt="">
+             </div>  
+            </div>
+
+            <!-- parrafo -->
+            <div class="content " id="id-content-2">
+            <div class="box1">
+             <h2>NASA AERONAUTICS</h2>
+             <h4 class="subtitle">For everyone</h4>
+             <p class="info">Gracias a los avances tecnológicos desarrollados por la NASA, la industria de la aviación está mejor equipada que nunca para transportar a pasajeros y carga de manera segura y eficiente a destinos en todo el mundo. De hecho, todos los aviones estadounidenses que vuelan hoy día, así como todos los controles de tráfico aéreo de los Estados Unidos, utilizan, de alguna manera u otra, tecnología desarrollada por la NASA.</p>
+             <p class="info">Read More</p>
+            </div>
+             <div class="box2">
+                <img class="image" width="500px" height="300px" src="/media/imagenes-content/imagen de seccion 3.png" alt="">
+             </div>  
+            </div>  
+            <!-- leer mas -->
+        </section>
+    
+ <script src="/src/index.js"></script>
+</body>
+</html>
